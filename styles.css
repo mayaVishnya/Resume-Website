@@ -1,0 +1,38 @@
+h1,h3, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+input, textarea {
+    width: 100%; 
+    min-height: 2em;
+    margin: 10px 0 10px 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 25%;
+    min-height: 2.5em;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    background-color:rgba(0, 0, 0, 0.692);
+    color: rgb(237, 237, 237);
+    border: 2px solid rgb(237, 237, 237);
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+}
