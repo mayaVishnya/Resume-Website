@@ -53,13 +53,17 @@ img {
 }
 
 .skill {
+    width: 15vw;
+    height: 15vw;
     margin: 10px 6vw;
     padding: 15px;
+    background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 7px;
 }
 
 .skill h3 {
+    width: 70%;
     border-bottom: 1px solid #2d1304;
 }
 
