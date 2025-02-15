@@ -76,6 +76,10 @@ li {
     padding: 0;
 }
 
+#get-cv {
+    margin: 0 auto 20px;
+}
+
 form {
     margin: 0 auto;
     max-width: 500px;
