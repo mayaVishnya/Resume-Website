@@ -132,6 +132,12 @@ input[type="submit"], button {
     font-weight: 700;
 }
 
+
+input[type="submit"]:hover, button:hover {
+    border: 1px solid #2d1304;
+    border-radius: 7px;
+}
+
 footer {
     text-align: center;
 }
