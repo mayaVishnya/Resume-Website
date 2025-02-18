@@ -1,6 +1,9 @@
-html {
+:root {
     --page-collor: #D9D9D9;
     --text-color: #2d1304;
+}
+
+html {
     background-color: var(--page-collor);
     color: var(--text-color);
 }
