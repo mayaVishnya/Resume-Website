@@ -54,12 +54,12 @@ img {
 
 .skills-block {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .skill {
-    width: 15vw;
-    height: 15vw;
+    width: 30vh;
+    height: 30vh;
     margin: 30px 6vw;
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -76,6 +76,8 @@ img {
     width: 70%;
     border-bottom: 1px solid var(--text-color);
     font-weight: normal;
+    /* overflow: hidden; */
+
 }
 
 ul {
@@ -145,4 +147,16 @@ input[type="submit"]:hover, button:hover {
 
 footer {
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .skills-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        width: 30vh;
+        height: 30vh;
+    }
 }
