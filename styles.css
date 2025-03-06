@@ -69,12 +69,13 @@ img {
     border: 1px solid #ffffff;
     border-radius: 7px;
     box-sizing: border-box;
+    transition: transform 0.25s ease-in-out 0ms;
 }
 
 .skill:hover {
     border: 2px solid var(--text-color);
     border-radius: 7px;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .skill h3 {
@@ -142,12 +143,14 @@ input[type="submit"], button {
     text-transform: uppercase;
     border-radius: 7px;
     font-weight: 700;
+    transition: transform 0.15s ease-in-out 0ms;
 }
 
 
 input[type="submit"]:hover, button:hover {
     border: 1px solid #2d1304;
     border-radius: 7px;
+    transform: scale(1.02);
 }
 
 footer {
