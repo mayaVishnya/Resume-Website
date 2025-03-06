@@ -31,8 +31,12 @@ body {
 }
 
 summary {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: 2 / 3;
+
 }
 
 hr {
@@ -70,6 +74,7 @@ img {
 .skill:hover {
     border: 2px solid var(--text-color);
     border-radius: 7px;
+    transform: scale(1.1);
 }
 
 .skill h3 {
