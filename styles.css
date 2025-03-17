@@ -6,6 +6,7 @@
 html {
     background-color: var(--page-collor);
     color: var(--text-color);
+    box-sizing: border-box;
 }
 
 header {
@@ -23,6 +24,12 @@ header h1 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TO DO: navigation bar */
+#navbar {
+    position: fixed;
+    top: 0;
 }
 
 #bio {
