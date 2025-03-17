@@ -30,6 +30,7 @@ body {
 #navbar {
     position: fixed;
     top: 0;
+    left: 0;
 }
 
 #bio {
@@ -37,7 +38,7 @@ body {
     max-width: 600px;
 }
 
-summary {
+#summary {
     /* display: flex;
     justify-content: center; */
     display: grid;
@@ -63,7 +64,7 @@ img {
     padding: 10px;
 }
 
-.skills-block {
+#skills-block {
     display: flex;
     justify-content: space-evenly;
 }
