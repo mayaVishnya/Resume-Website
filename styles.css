@@ -33,12 +33,12 @@ body {
     left: 0;
 }
 
-#bio {
+.bio {
     width: 40%;
     max-width: 600px;
 }
 
-#summary {
+.summary {
     /* display: flex;
     justify-content: center; */
     display: grid;
@@ -64,7 +64,7 @@ img {
     padding: 10px;
 }
 
-#skills-block {
+.skills-block {
     display: flex;
     justify-content: space-evenly;
 }
@@ -95,20 +95,19 @@ img {
 }
 
 ul {
-    position: absolute;
     list-style: none;
 }
 
 li {
 }
 
-#experience {
+.experience {
     width: 60%;
     max-width: 700px;
 
 }
 
-#get-cv {
+.get-cv {
     margin: 0 auto 20px;
 }
 
