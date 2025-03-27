@@ -34,8 +34,11 @@ body {
 }
 
 .bio {
-    width: 70%;
-    max-width: 900px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
     text-align: center;
 }
 
@@ -43,9 +46,7 @@ body {
 .summary {
     display: flex;
     justify-content: space-evenly;
-    /* display: grid; */
-    /* grid-auto-flow: column; */
-    /* grid-column: 2 / 3; */
+    flex-wrap: wrap;
 
 }
 
@@ -84,9 +85,9 @@ img {
 }
 
 .skill:hover {
-    border: 2px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 7px;
-    transform: scale(1.04);
+    transform: scale(1.009);
 }
 
 .skill h3 {
@@ -160,7 +161,7 @@ input[type="submit"], button {
     width: 30%;
     min-height: 3em;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color:rgba(255, 255, 255);
     color: #1D0303;
     border: 2px solid rgb(237, 237, 237);
