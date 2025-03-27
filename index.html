@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
@@ -20,9 +20,15 @@
         <main>
             <div class="summary">
                 <div class="picture">
-                    <img src="/images/profile_pic.jpg"
-                        height="200"
-                         alt="Photo of me" />
+                    <picture>
+                        <source media="(min-width:600px)"
+                            src="/images/profile_pic.jpg">
+                        <source media="(min-width:600px)"
+                            src="/images/profile_pic_mobile.jpg">
+                        <img src="/images/profile_pic.jpg"
+                            height="200"
+                            alt="resume photo" />
+                    </picture>
                 </div>
                 <div class="summary-text"> 
                     <h2 class="bio">Maiia Vyshniakova (Software Developer)</h2>
