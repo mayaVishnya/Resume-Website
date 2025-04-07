@@ -37,7 +37,8 @@ body {
     padding: 1%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: row; */
+    max-width: 800px;
     text-align: center;
 }
 
@@ -46,7 +47,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 hr {
@@ -55,7 +55,9 @@ hr {
     background-color: #ffffff;
 }
 
-h1,h3, p {
+h1,
+h3,
+p {
     margin: 1em auto;
     text-align: center;
 }
@@ -136,7 +138,8 @@ fieldset label {
     /* opacity: 0.8; */
 }
 
-input, textarea {
+input,
+textarea {
     font-size: 1.05rem;
     width: 100%; 
     min-height: 2em;
@@ -171,7 +174,8 @@ textarea:-webkit-autofill:focus{
   -webkit-box-shadow: 0 0 0px 1000px var(--main-color) inset;
 }
 
-input[type="submit"], button {
+input[type="submit"],
+button {
     display: block;
     width: 30%;
     min-height: 3em;
@@ -187,7 +191,8 @@ input[type="submit"], button {
 }
 
 
-input[type="submit"]:hover, button:hover {
+input[type="submit"]:hover,
+button:hover {
     border: 1px solid #2d1304;
     border-radius: 7px;
     transform: scale(1.02);

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, ininail-scale=1.0" />
         <title>CV - Maiia Vyshniakova</title>
-        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header>
@@ -22,9 +22,9 @@
                 <div class="picture">
                     <picture>
                         <source media="(min-width:600px)"
-                            src="/images/profile_pic.jpg">
+                            src="/images/profile_pic.jpg" />
                         <source media="(min-width:600px)"
-                            src="/images/profile_pic_mobile.jpg">
+                            src="/images/profile_pic_mobile.jpg" />
                         <img src="/images/profile_pic.jpg"
                             height="200"
                             alt="resume photo" />
@@ -101,7 +101,8 @@
                     <label for="message">Message:
                         <textarea id="message" rows="4" col="25" name="message"></textarea>
                     </label>
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send"
+                        onclick='alert("Message Sent!")'>
                 </fieldset>
             </form>
         </main>
