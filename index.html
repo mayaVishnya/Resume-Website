@@ -9,16 +9,16 @@
     <body>
         <header>
             <div><h1>RESUME</h1></div>
-            <nav role="navigation" aria-label="main menu ">
-                <ul class="navbar">
-                    <!-- <li><a href="#summary">About Me</a></li>
-                    <li><a href="#skills-block">Skills</a></li>
-                    <li><a href="#contact-form">Contact Me</a></li> -->
-                </ul>
-            </nav>
         </header>
+        <nav role="navigation" aria-label="main menu ">
+            <ul class="navbar">
+                <li><a href="#summary">About Me</a></li>
+                <li><a href="#skills-block">Skills + Experience</a></li>
+                <li><a href="#contact-form">Contact Me</a></li>
+            </ul>
+        </nav>
         <main>
-            <section class="summary">
+            <section id="summary">
                 <div class="picture">
                     <picture>
                         <source media="(min-width:600px)"
@@ -39,7 +39,7 @@
                 </div>
             </section>
             <hr>
-            <section class="skills-block">
+            <section id="skills-block">
                 <div></div>
                 <div></div>
                 <div class="skill tech-skills">
@@ -86,7 +86,7 @@
                 </form>
             </section>
             <hr>
-            <form class="contact-form" method="post" action="mailto:maiia.vyshniakova@gmail.com">
+            <form id="contact-form" method="post" action="mailto:maiia.vyshniakova@gmail.com">
                 <fieldset>
                     <legend><b>Contact me!</b></legend>
                     <label for="name">Name:

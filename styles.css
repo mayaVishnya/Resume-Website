@@ -9,6 +9,15 @@ html {
     box-sizing: border-box;
 }
 
+/* Darkmode TO DO*/
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: var(--secondary-color);
+        color: var(--main-color);
+    }
+}
+
+
 header {
     height: 80px;
     width: 100%;
@@ -27,8 +36,8 @@ body {
 }
 
 /* TO DO: navigation bar */
-#navbar {
-    position: fixed;
+nav {
+    position: sticky;
     top: 0;
     left: 0;
 }
@@ -43,7 +52,7 @@ body {
 }
 
 
-.summary {
+#summary {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -69,7 +78,7 @@ img {
     padding: 10px;
 }
 
-.skills-block {
+#skills-block {
     display: flex;
     justify-content: space-evenly;
 }
@@ -174,7 +183,7 @@ textarea:-webkit-autofill:focus{
   -webkit-box-shadow: 0 0 0px 1000px var(--main-color) inset;
 }
 
-input[type="submit"],
+/* input[type="submit"], */
 button {
     display: block;
     width: 30%;
@@ -191,7 +200,7 @@ button {
 }
 
 
-input[type="submit"]:hover,
+/* input[type="submit"]:hover, */
 button:hover {
     border: 1px solid #2d1304;
     border-radius: 7px;
