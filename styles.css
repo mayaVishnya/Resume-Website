@@ -4,22 +4,20 @@
     --hightlight-color: #fff;
 }
 
-/* Darkmode TO DO*/
-@media (prefers-color-scheme: dark) {
+/* Darkmode TO DO, 2d1304*/
+/* @media (prefers-color-scheme: dark) {
     :root {
-        --main-color: #2d1304; 
-        /* 2d1304 */
+        --main-color: #3a3939; 
         --secondary-color:  #D9D9D9;
-        --hightlight-color: #1D0303;
+        --hightlight-color: #504138;
     }
-}
+} */
+
 html {
     background-color: var(--main-color);
     color: var(--secondary-color);
     box-sizing: border-box;
 }
-
-
 
 header {
     height: 80px;
@@ -53,7 +51,6 @@ nav {
     max-width: 800px;
     text-align: center;
 }
-
 
 #summary {
     display: flex;
@@ -193,21 +190,29 @@ button {
     min-height: 3em;
     margin: 0 auto;
     font-size: 1rem;
-    background-color:rgba(255, 255, 255);
+    background-color:rgb(255, 255, 255);
     color: #1D0303;
-    border: 2px solid rgb(237, 237, 237);
+    border: none;
     text-transform: uppercase;
     border-radius: 7px;
     font-weight: 700;
-    transition: transform 0.15s ease-in-out 0ms;
+    transition: background-color 0.15s,
+    box-shadow 0.05s;
+     /* ease-in-out 0ms; */
+    cursor: pointer;
 }
 
 
 /* input[type="submit"]:hover, */
 button:hover {
-    border: 1px solid #2d1304;
-    border-radius: 7px;
-    transform: scale(1.02);
+    background-color: rgb(246, 246, 246);
+    /* border: 1px solid #2d1304; */
+    /* border-radius: 7px; */
+}
+
+button:active {
+    background-color: rgb(246, 246, 246);
+    box-shadow: 2px 2px 2px rgba(180, 179, 179, 0.749);
 }
 
 footer {
