@@ -105,7 +105,7 @@ body {
 hr {
     height: 2px;
     border: none;
-    background-color: var(--hightlight-color);
+    background-color: var(--white);
 }
 
 h1,
@@ -162,14 +162,26 @@ img {
 li {
 }
 
+.experience-block {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
 .experience {
-    width: 60%;
+    width: 80%;
     max-width: 700px;
 
 }
 
 .get-cv {
-    margin: 0 auto 20px;
+    margin: 30px auto 20px;
+}
+
+.get-cv:hover {
+    background-color: var(--gray);
 }
 
 form {
