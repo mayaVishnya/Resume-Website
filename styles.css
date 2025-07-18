@@ -260,7 +260,15 @@ button:active {
 }
 
 footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 10px
 }
 
 @media (max-width: 1000px) {
