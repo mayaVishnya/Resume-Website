@@ -11,7 +11,7 @@
             <div><h1>RESUME</h1></div>
             <nav class="navbar" role="navigation" aria-label="main menu">
                 <li><a href="#summary">About Me</a></li>
-                <li><a href="#skills-block">Skills + Experience</a></li>
+                <li><a href="#skills-block">Skills & Experience</a></li>
                 <li><a href="#contact-form">Contact Me</a></li>
             </nav>
         </header>
@@ -102,7 +102,7 @@
                         <textarea id="message" rows="4" col="25" name="message"></textarea>
                     </label>
                     <button type="submit"
-                        onclick='alert("Message Sent!")'>
+                        onclick="sendEmail()">
                         Send
                     </button>
                 </fieldset>
@@ -127,6 +127,17 @@
                 </a></small>
             </div>
         </footer>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "jJxcj0PryYSoWXzXt",
+            });
+        })();
+        </script>
         <script src="./script.js"></script>
     </body>
 </html>
