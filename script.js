@@ -3,6 +3,8 @@ function sendEmail() {
     let _email = document.getElementById("email").value;
     let _subject = document.getElementById("subject").value;
     let _name = document.getElementById("name").value;
+    if (_email === "" || _name === "")
+        return;
     if ( _message=== "") 
         _message = "Please contact me! " + _email + "\n" + _name;
     if (_subject === "")
