@@ -5,14 +5,22 @@
         <meta name="viewport" content="width=device-width, ininail-scale=1.0" />
         <title>CV - Maiia Vyshniakova</title>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- TO DO: Bootstrap, FAS -->
+
+        <!-- <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"/> -->
     </head>
     <body>
         <header>
             <div><h1>RESUME</h1></div>
             <nav class="navbar" role="navigation" aria-label="main menu">
-                <li><a href="#summary">About Me</a></li>
-                <li><a href="#skills-block">Skills & Experience</a></li>
                 <li><a href="#contact-form">Contact Me</a></li>
+                <li><a href="#skills-block">Skills & Experience</a></li>
+                <li><a href="#summary">About Me</a></li>
             </nav>
         </header>
         <main>
@@ -23,6 +31,7 @@
                             src="/images/profile_pic.jpg" />
                         <source media="(min-width:600px)"
                             src="/images/profile_pic_mobile.jpg" />
+                            <!-- class="img-responsive" -->
                         <img src="/images/empty-pic.jpg"
                             height="200"
                             alt="resume photo" />
@@ -37,6 +46,7 @@
                 </div>
             </section>
 
+            <!-- Add certifications! -->
             <section id="skills-block">
                 <div></div>
                 <div></div>
@@ -86,7 +96,7 @@
                 </form>
             </section>
             <!-- <hr> -->
-            <form id="contact-form" method="post" action="mailto:maiia.vyshniakova@gmail.com">
+            <form id="contact-form">
                 <fieldset>
                     <legend><b>Contact me!</b></legend>
                     <label for="name">Name:
@@ -111,19 +121,23 @@
             <!-- Add a day/night mode -->
         <hr>
         <footer>
-            copyright &copy; 2025  Maiia Vyshniakova
+            &copy; 2025  Maiia Vyshniakova
             <div class="social-icons">
-                <small><a href="maiia.vyshniakova@gmail.com" target="_blank">maiia.vyshniakova@gmail.com
-                    <i></i>
+                <small><a href="maiia.vyshniakova@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i>
+                    maiia.vyshniakova@gmail.com
                 </a></small>
-                <small><a href="https://github.com/mayaVishnya" target="_blank">GitHub
-                    <i></i>
+                <small><a href="https://github.com/mayaVishnya" target="_blank">
+                    <i class="fa fa-github"></i>
+                    GitHub
                 </a></small>
-                <small><a href="https://www.linkedin.com/in/maya-vyshniakova/" target="_blank">LinkedIn
-                    <i></i>
+                <small><a href="https://www.linkedin.com/in/maya-vyshniakova/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                    LinkedIn
                 </a></small>
-                <small><a href="https://github.com/mayaVishnya/Resume-Website" target="_blank">Website Source Code
-                    <i></i>
+                <small><a href="https://github.com/mayaVishnya/Resume-Website" target="_blank">
+                    <i class="fa fa-code"></i>
+                    Website Source Code
                 </a></small>
             </div>
         </footer>

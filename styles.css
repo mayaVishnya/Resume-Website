@@ -275,7 +275,17 @@ footer {
 }
 
 .social-icons a {
-    margin: 10px
+    text-decoration: none;
+    margin: 10px;
+    color: var(--dark-brown)
+}
+
+.social-icons a:first-of-type {
+    margin-left: 30px;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1000px) {
