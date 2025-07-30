@@ -4,28 +4,28 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, ininail-scale=1.0" />
         <title>CV - Maiia Vyshniakova</title>
-        <link rel="stylesheet" href="styles.css" />
+        <!-- <link rel="stylesheet" href="styles.css" /> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- TO DO: Bootstrap, FAS -->
-
-        <!-- <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-            crossorigin="anonymous"/> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
         <header>
-            <div><h1>RESUME</h1></div>
-            <nav class="navbar" role="navigation" aria-label="main menu">
-                <li><a href="#contact-form">Contact Me</a></li>
-                <li><a href="#skills-block">Skills & Experience</a></li>
-                <li><a href="#summary">About Me</a></li>
-            </nav>
+            <div class="row">
+                <div class="col-md-8 text-center"><h1>RESUME</h1></div>
+                <div class="col-md-4">
+                    <nav class="navbar" role="navigation" aria-label="main menu">
+                        <div class="list-group d-flex flex-row">
+                            <div class="p-2 list-goup-item list-group-item-action"><li><a href="#contact-form">Contact Me</a></li></div>
+                            <div class="p-2 list-goup-item list-group-item-action"><li><a href="#skills-block">Skills & Experience</a></li></div>
+                            <div class="p-2 list-goup-item list-group-item-action"><li><a href="#summary">About Me</a></li></div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </header>
         <main>
-            <section id="summary">
-                <div class="picture">
+            <section id="summary" class="row">
+                <div class="picture col-md-5">
                     <picture>
                         <source media="(min-width:600px)"
                             src="/images/profile_pic.jpg" />
@@ -37,7 +37,7 @@
                             alt="resume photo" />
                     </picture>
                 </div>
-                <div class="summary-text"> 
+                <div class="summary-text col-md-7"> 
                     <h2 class="bio">Maiia Vyshniakova (Software Developer)</h2>
                     <h2 class="bio">About me</h2>
                     <p class="bio">Hi, I’m Maya! I’m looking for a Front-End Engineer role in Vienna’s software development industry.
