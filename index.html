@@ -103,27 +103,37 @@
                 </form>
             </section>
             <!-- <hr> -->
-            <form id="contact-form">
-                <fieldset>
-                    <legend><b>Contact me!</b></legend>
-                    <label for="name">Name:
-                        <input type="name" id="name" required name="name"/>
-                    </label>
-                    <label for="email">Email:
-                        <input type="email" id="email" required name="email" />
-                    </label>
-                    <label for="subject">Subject:
-                        <input type="text" id="subject" name="subject"/>
-                    </label>
-                    <label for="message">Message:
-                        <textarea id="message" rows="4" col="25" name="message"></textarea>
-                    </label>
-                    <button type="submit"
-                        onclick="sendEmail()">
-                        Send
-                    </button>
-                </fieldset>
-            </form>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-9 col-md-7 col-lg-5">
+                        <form class="mt-5">
+                            <fieldset>
+                                <div class="mb-3"><legend><b>Contact me!</b></legend></div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name:</label>
+                                    <input type="name" id="name" class="form-control" required name="name"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" id="email" class="form-control" required name="email" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject:</label>
+                                    <input type="text" id="subject" class="form-control" name="subject"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message:</label>
+                                    <textarea id="message" class="form-control" rows="4" col="25" name="message"></textarea>
+                                </div>
+                                <button type="submit" class="w-100"
+                                onclick="sendEmail()">
+                                Send
+                                </button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
             <!-- Add a day/night mode -->
         <hr>
