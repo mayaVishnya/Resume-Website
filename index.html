@@ -6,11 +6,13 @@
         <title>CV - Maiia Vyshniakova</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- linking Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header  class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-md-8"><h1>RESUME</h1></div>
                 <div class="col-lg-4 col-md-4">
@@ -25,25 +27,27 @@
             </div>
         </header>
         <main>
-            <section id="summary" class="row">
-                <div class="picture col-lg-5 col-md-4">
-                    <picture>
-                        <source media="(min-width:600px)"
-                            src="/images/profile_pic.jpg" />
-                        <source media="(min-width:600px)"
-                            src="/images/profile_pic_mobile.jpg" />
-                            <!-- class="img-responsive" -->
-                        <img src="/images/empty-pic.jpg"
-                            height="200"
-                            alt="resume photo" />
-                    </picture>
-                </div>
-                <div class="summary-text col-lg-7 col-md-8"> 
-                    <h2 class="bio">Maiia Vyshniakova (Software Developer)</h2>
-                    <h2 class="bio">About me</h2>
-                    <p class="bio">Hi, I’m Maya! I’m looking for a Front-End Engineer role in Vienna’s software development industry.
-                        For the past three years (2022–2025), I’ve been developing channels for the Roku platform, an American streaming service.
-                    </p>
+            <section id="summary" class="container-fluid">
+                <div class="row">
+                    <div class="picture col-lg-5 col-md-4">
+                        <picture>
+                            <source media="(min-width:600px)"
+                                src="/images/profile_pic.jpg" />
+                            <source media="(min-width:600px)"
+                                src="/images/profile_pic_mobile.jpg" />
+                                <!-- class="img-responsive" -->
+                            <img src="/images/empty-pic.jpg"
+                                height="200"
+                                alt="resume photo" />
+                        </picture>
+                    </div>
+                    <div class="summary-text col-lg-7 col-md-8"> 
+                        <h2 class="bio">Maiia Vyshniakova (Software Developer)</h2>
+                        <h2 class="bio">About me</h2>
+                        <p class="bio">Hi, I’m Maya! I’m looking for a Front-End Engineer role in Vienna’s software development industry.
+                            For the past three years (2022–2025), I’ve been developing channels for the Roku platform, an American streaming service.
+                        </p>
+                    </div>
                 </div>
             </section>
 
