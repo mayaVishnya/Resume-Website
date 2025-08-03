@@ -37,10 +37,10 @@ header {
     color: var(--dark-brown);
 }
 
-/* header h1 {
+header h1 {
     margin: auto;
-    padding: 20px 0;
-} */
+    padding: 10px 0;
+}
 
 body {
     background-color: var(--gray);
@@ -52,9 +52,9 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-} */
+}
 
-/* .navbar {
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -64,8 +64,8 @@ body {
     overflow: hidden;
     z-index: 9999;
     /* background-color: var(--gray);
-}
-
+} */
+/*
 .navbar a {
     float: right;
     display: block;
