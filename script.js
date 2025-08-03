@@ -1,3 +1,14 @@
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", e => {
+    if(!form.checkValidity()) {
+        e.preventDefault();
+    }
+    console.log(e);
+
+    form.classList.add("was-validated");
+})
+
 function sendEmail() {
     let _message = document.getElementById("message").value;
     let _email = document.getElementById("email").value;

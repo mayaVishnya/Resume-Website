@@ -102,18 +102,20 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-10 col-sm-9 col-md-7 col-lg-5">
-                        <form id="contact-form" class="mt-5">
+                        <form id="contact-form" class="mt-5" novalidate>
                             <fieldset>
                                 <div class="mb-5"><legend><b>Contact me!</b></legend></div>
                                 <div class="mb-3 form-floating">
                                     <input type="text" id="name" class="form-control" required name="name"
                                     placeholder="Enter your name"/>
                                     <label for="name">Name</label>
+                                    <div class="invalid-feedback">please enter your name</div>
                                 </div>
                                 <div class="mb-3 form-floating">
                                     <input type="email" id="email" class="form-control" required name="email"
                                     placeholder="Enter your email" />
                                     <label for="email">Email</label>
+                                    <div class="invalid-feedback">please enter a valid email</div>
                                 </div>
                                 <div class="mb-3 form-floating">
                                     <input type="text" id="subject" class="form-control" name="subject"
