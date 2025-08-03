@@ -29,19 +29,19 @@ html {
 }
 
 header {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 100%; */
     background-color: var(--gray);
     color: var(--dark-brown);
 }
 
-header h1 {
+/* header h1 {
     margin: auto;
     padding: 20px 0;
-}
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -54,7 +54,7 @@ body {
     left: 0;
 } */
 
-.navbar {
+/* .navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -63,7 +63,7 @@ body {
     padding: 0;
     overflow: hidden;
     z-index: 9999;
-    /* background-color: var(--gray); */
+    /* background-color: var(--gray);
 }
 
 .navbar a {
@@ -73,7 +73,7 @@ body {
     color: var(--dark-brown);
     text-decoration: none;
     padding: 10px 10px;
-}
+} */
 
 /* .navbar a:hover {
     text-decoration: underline;
