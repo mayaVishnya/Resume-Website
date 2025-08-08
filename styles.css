@@ -34,7 +34,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    /* width: 100%; */
     padding: 0 29px;
     background-color: var(--gray);
     color: var(--dark-brown);
@@ -63,7 +62,7 @@ header h1 {
     padding: 20px 0;
 }
 
- .navbar {
+.navbar {
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -80,9 +79,9 @@ header h1 {
     padding: 15px 20px;
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header {
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
         padding: 10px;
     }
@@ -92,6 +91,7 @@ header h1 {
     .navbar {
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: 40px;
     }
     .navbar a {
         padding: 10px;
