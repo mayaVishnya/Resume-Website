@@ -192,6 +192,8 @@ img {
     width: auto;
     height: auto;
     /* min-height: 40%; */
+    padding: 20px;
+    padding-top: 0;
     min-width: 20%;
     margin: 30px 4vw;
     line-height: 1.5;
@@ -231,8 +233,17 @@ img {
         align-items: center;
     }
     .skill {
-        width: 50vw;
+        width: 40vw;
         padding: 20px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill {
+        width: 60vw;
+        padding: 30px;
+        padding-top: 0;
     }
 }
 
