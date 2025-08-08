@@ -190,8 +190,9 @@ img {
 
 .skill {
     position: relative;
-    width: 32vh;
+    width: auto;
     height: auto;
+    min-width: 20%;
     margin: 30px 6vw;
     background-color: var(--white);
     border: 1px solid var(--white);
