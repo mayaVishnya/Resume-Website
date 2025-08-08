@@ -30,6 +30,9 @@ html {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +40,7 @@ header {
     padding: 0 29px;
     background-color: var(--gray);
     color: var(--dark-brown);
+    z-index: 999;
 }
 
 header > div {
@@ -63,6 +67,8 @@ header h1 {
 }
 
 .navbar {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -71,7 +77,7 @@ header h1 {
 }
 
 .navbar a {
-    float: right;
+    /* float: left; */
     display: block;
     text-align: center;
     color: var(--dark-brown);
@@ -109,6 +115,7 @@ header h1 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
 }
 
 .bio {
