@@ -192,8 +192,9 @@ img {
     position: relative;
     width: auto;
     height: auto;
-    min-width: 20%;
-    margin: 30px 6vw;
+    /* min-height: 32hv; */
+    min-width: 25%;
+    margin: 30px 4vw;
     background-color: var(--white);
     border: 1px solid var(--white);
     border-radius: 7px;
@@ -214,7 +215,7 @@ img {
 }
 
 .skill ul {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     padding: 0;
     list-style: none;
@@ -224,13 +225,13 @@ img {
     margin: 8px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     #skills-block {
         flex-direction: column;
         align-items: center;
     }
     .skill {
-        max-width: 80%;
+        width: 50vw;
         padding: 15px;
     }
 }
