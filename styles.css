@@ -37,7 +37,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    padding: 0 29px;
     background-color: var(--gray);
     color: var(--dark-brown);
     z-index: 999;
@@ -195,6 +194,7 @@ img {
     /* min-height: 40%; */
     min-width: 20%;
     margin: 30px 4vw;
+    line-height: 1.5;
     background-color: var(--white);
     border: 1px solid var(--white);
     border-radius: 7px;
@@ -232,7 +232,7 @@ img {
     }
     .skill {
         width: 50vw;
-        padding: 15px;
+        padding: 20px;
     }
 }
 
