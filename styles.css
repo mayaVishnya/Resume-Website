@@ -115,7 +115,6 @@ body {
     padding: 1%;
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
     max-width: 800px;
     text-align: center;
 }
@@ -127,7 +126,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    border-radius: 15px;
     gap: 20;
 }
 
@@ -174,6 +172,7 @@ img {
 }
 
 #skills-block {
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -258,6 +257,10 @@ img {
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+}
+
+b {
+    font-size: 22px
 }
 
 fieldset {
