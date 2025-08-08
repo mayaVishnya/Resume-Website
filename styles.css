@@ -157,6 +157,10 @@ body {
         max-width: none;
         text-align: center;
     }
+    body {
+        margin-top: 150px;
+
+    }
 }
 
 hr {
