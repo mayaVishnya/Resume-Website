@@ -266,6 +266,16 @@ img {
     max-width: 150px;
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .experience-block {
+        width: 70%;
+    }
+    .experience {
+        width: 100%;
+        line-height: 1.8;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .experience-block {
         width: 90%;
