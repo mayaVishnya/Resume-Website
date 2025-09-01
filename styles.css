@@ -7,8 +7,8 @@
 }
 
 :root {
-    --gray: #d9d9d9;
-    --dark-brown: #1D0303;
+    --gray: #98c4cc;
+    --dark-brown: #000;
     --white: #fff;
     --accent-blue: #1d74e4;
 }
@@ -125,8 +125,13 @@ body {
     text-align: center;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 #summary {
-    background-color: var(--white);
+    background-color: #DA9E68;
+    /* background-color: var(--white); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,6 +142,7 @@ body {
 
 #summary img {
     max-width: 400px;
+    margin-right: 50px;
 }
 
 @media screen and (max-width: 767px) {
