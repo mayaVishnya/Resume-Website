@@ -9,7 +9,7 @@
 :root {
     --gray: #98c4cc;
     --dark-brown: #000;
-    --white: #fff;
+    --white: #e6e6e6;
     --accent-blue: #1d74e4;
 }
 
@@ -143,6 +143,7 @@ h2 {
 #summary img {
     max-width: 400px;
     margin-right: 50px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -205,7 +206,7 @@ img {
     line-height: 1.5;
     background-color: var(--white);
     border: 1px solid var(--white);
-    border-radius: 7px;
+    border-radius: 5px;
     box-sizing: border-box;
     transition: border 0.15s,
         border-radius 0.15s;
@@ -357,7 +358,7 @@ button {
     color: var(--dark-brown);
     border: 1px solid var(--dark-brown);
     text-transform: uppercase;
-    border-radius: 7px;
+    border-radius: 5px;
     font-weight: 700;
     transition: background-color 0.15s,
     box-shadow 0.05s,
