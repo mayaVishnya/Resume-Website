@@ -354,7 +354,7 @@ button {
     min-width: 130px;
     margin: 0 auto;
     font-size: 1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:var(--white);
     color: var(--dark-brown);
     border: 1px solid var(--dark-brown);
     text-transform: uppercase;
@@ -367,14 +367,14 @@ button {
 }
 
 button:hover {
-    background-color: rgba(56, 7, 7, 0.1);
-    border-width: 1.5px;
+    /* background-color: rgba(56, 7, 7, 0.1); */
+    border-width: 1.4px;
 }
 
 button:active {
     box-shadow: 2px 2px 2px rgba(180, 179, 179, 0.749);
     border-width: 1.5px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media (max-width: 767px) {
