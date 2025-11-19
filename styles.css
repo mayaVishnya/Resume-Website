@@ -10,7 +10,7 @@
     --gray: #98c4cc;
     --dark-brown: #000;
     --white: #e6e6e6;
-    --accent-blue: #1d74e4;
+    --accent-orange: #ca884f;
 }
 
 /* Darkmode TO DO, 2d1304*/
@@ -130,8 +130,7 @@ h2 {
 }
 
 #summary {
-    background-color: #DA9E68;
-    /* background-color: var(--white); */
+    background-color: var(--accent-orange);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,6 +175,7 @@ hr {
 }
 
 h1,
+h2,
 h3,
 p {
     margin: 1em auto;
@@ -195,10 +195,8 @@ img {
 }
 
 .skill {
-    /* position: relative; */
     width: auto;
     height: auto;
-    /* min-height: 40%; */
     padding: 20px;
     padding-top: 0;
     min-width: 20%;
@@ -367,7 +365,6 @@ button {
 }
 
 button:hover {
-    /* background-color: rgba(56, 7, 7, 0.1); */
     border-width: 1.4px;
 }
 
