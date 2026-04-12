@@ -263,13 +263,15 @@ img {
 }
 
 .experience {
+    padding: 20px;
     width: 80%;
     max-width: 700px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .get-cv {
-    margin: 30px auto 20px;
+    margin: 20px auto;
     max-width: 150px;
 }
 
