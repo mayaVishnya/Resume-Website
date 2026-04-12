@@ -330,11 +330,15 @@ input {
     border-bottom: 1px solid var(--white);
 }
 
-input:focus,
-textarea:focus {
+input:focus {
     outline: none;
     border-bottom: 1px solid var(--dark-brown);
 } 
+
+textarea:focus {
+    outline: none;
+    border: 1px solid var(--dark-brown);
+}
 
 /* Change autocomplete styles in WebKit */
 input:-webkit-autofill,
