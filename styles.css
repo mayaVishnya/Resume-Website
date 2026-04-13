@@ -87,7 +87,6 @@ header h1 {
 
 @media screen and (max-width: 767px) {
     header {
-        /* flex-direction: column; */
         height: auto;
         padding: 10px;
     }
@@ -98,9 +97,6 @@ header h1 {
         flex-wrap: wrap;
         justify-content: center;
         margin-left: 40px;
-    }
-    .navbar a {
-        padding: 10px;
     }
 }
 
@@ -141,20 +137,12 @@ h2 {
 }
 
 #summary img {
-    max-width: 400px;
+    max-width: 300px;
     margin-right: 50px;
     border-radius: 5px;
 }
 
 @media screen and (max-width: 767px) {
-    #summary {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    #summary .picture,
-    #summary .summary-text {
-        width: 100%;
-    }
     #summary img {
         height: auto;
         max-width: 250px;
@@ -390,6 +378,7 @@ button:active {
 @media (max-width: 767px) {
     #contact-form {
         width: 90vw;
+        margin: 50px auto;
     }
     textarea {
         height: 9rem;
@@ -404,6 +393,7 @@ footer {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: white;
+    border-top: 1px solid var(--text-color);
 }
 
 .social-icons a {
